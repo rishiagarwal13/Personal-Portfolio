@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    h4ilogo,
+    wells_fargologo,
+    Winrock_logo,
   } from "../assets";
   
   export const navLinks = [
@@ -103,6 +106,41 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Engineer Intern",
+      company_name: "Wells Fargo",
+      icon: wells_fargologo,
+      iconBg: "#FFFFFF",
+      date: "June 2025 - August 2025",
+      points: [
+        "Containerized and deployed Spring Boot microservices using Docker, Kubernetes, and OpenShift, supporting over 500K daily transactions on the ODIN data platform and enabling scalable, cloud-native architecture.",
+        "Integrated and validated Splunk Enterprise Logging and Observability Cloud across all services, enabling 100+ custom log pipelines and reducing mean time to resolution (MTTR) by over 2 hours.",
+        "Built Kafka-integrated Spring Batch workflows processing 1M+ records/day and optimized CI/CD pipelines with GitHub Actions, GitLab, and Harness to support weekly deployments during the PCF to OCP migration."
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Winrock International",
+      icon: Winrock_logo,
+      iconBg: "#FFFFFF",
+      date: "December 2024 - May 2025",
+      points: [
+        "Replaced manual Excel-based workflow with a secure React + Firebase web app, eliminating over 100 recurring data entry errors.",
+        "Designed Firebase backend, enabling secure auth and dynamic form handling across 3 project sectors; supported over 200 client submissions.",
+        "Automated email alerts via Firebase and third-party API integration, saving over 10 hours of manual follow-up per month."
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Hack4Impact",
+      icon: h4ilogo,
+      iconBg: "#FFFFFF",
+      date: "August 2024 - December 2024",
+      points: [
+        "Built a real-time application portal with React, TypeScript, and Firebase, reducing manual review time by 3x through automated workflows.",
+        "Deployed a live status tracker using Firebase, reducing applicant status inquiries by over 50 messages per cycle.",
+      ],
+    },
     {
       title: "Software Engineer Intern",
       company_name: "Xficient",

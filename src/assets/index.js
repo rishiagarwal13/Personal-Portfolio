@@ -35,6 +35,9 @@ import carrent from "/Users/rishiagarwal/Desktop/VSCode/Personal Portfolio/src/a
 import jobit from "/Users/rishiagarwal/Desktop/VSCode/Personal Portfolio/src/assets/s&p500.jpeg";
 //tripguid is finance tracker
 import tripguide from "/Users/rishiagarwal/Desktop/VSCode/Personal Portfolio/src/assets/financeimg.png";
+import h4ilogo from "./company/h4ilogo.png";
+import wells_fargologo from "./company/wells_fargologo.png";
+import Winrock_logo from "./company/Winrock_logo.png";
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  h4ilogo,
+  wells_fargologo,
+  Winrock_logo,
 };

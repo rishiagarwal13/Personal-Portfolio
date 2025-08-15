@@ -41,8 +41,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-          I'm a skilled software engineer with experienct in JavaScript, Java, and Python,
-          expertise in framworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely 
+          I'm a skilled software engineer with experience in JavaScript, Java, and Python,
+          expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely 
           others to create efficient, scalable, and user-friendly solutions that solve real-world problems. 
            
       </motion.p>
